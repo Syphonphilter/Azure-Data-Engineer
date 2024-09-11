@@ -1,0 +1,17 @@
+{
+	"name": "metastore",
+	"properties": {
+		"configs": {
+			"spark.sql.hive.metastore.version": "0.13",
+			"spark.hadoop.hive.synapse.externalmetastore.linkedservice.name": "AzureSqlDatabase",
+			"spark.sql.hive.metastore.jars": "/opt/hive-metastore/lib-0.13/*:/usr/hdp/current/hadoop-client/lib/*"
+		},
+		"created": "2024-09-11T01:06:33.035Z",
+		"createdBy": "dp-203syphonphilter@outlook.com",
+		"configMergeRule": {
+			"artifact.currentOperation.spark.sql.hive.metastore.version": "replace",
+			"artifact.currentOperation.spark.hadoop.hive.synapse.externalmetastore.linkedservice.name": "replace",
+			"artifact.currentOperation.spark.sql.hive.metastore.jars": "replace"
+		}
+	}
+}
