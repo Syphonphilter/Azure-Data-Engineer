@@ -1,0 +1,7 @@
+{
+	"name": "CosmosDb878",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/0e5b66d5-f1b6-4b6c-b2f8-33018a6a46a0/resourceGroups/Chapter2-RG/providers/Microsoft.DocumentDB/databaseAccounts/csharpguitar-1",
+		"groupId": "Sql"
+	}
+}
