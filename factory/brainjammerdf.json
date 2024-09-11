@@ -1,0 +1,9 @@
+{
+	"name": "brainjammerdf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "05e9f75a-fff9-42f6-98c9-7c3213706f4d",
+		"tenantId": "82e29339-4374-44be-b955-65cd1c9f2db7"
+	}
+}
