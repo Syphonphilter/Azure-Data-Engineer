@@ -15,6 +15,7 @@
 			"numExecutors": 1,
 			"conf": {
 				"spark.dynamicAllocation.enabled": "false",
+
 				"spark.dynamicAllocation.minExecutors": "1",
 				"spark.dynamicAllocation.maxExecutors": "1",
 				"spark.autotune.trackingId": "75a9a14d-0000-47ee-b865-4ffe6632bb5f"
@@ -53,7 +54,8 @@
 				"source": [
 					"import pkg_resources\n",
 					"for d in pkg_resources.working_set:\n",
-					"    print(d)"
+					"    print(d)\n",
+					"## test"
 				],
 				"execution_count": null
 			}
